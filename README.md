@@ -60,6 +60,9 @@ python evaluation_UCF.py --n_patch 9 --part_num 32 --part_len 2 --dataset_path U
 ```
 >Tips: If the model is trained by multi-gpu mode, you must add the command `--data_parallel` in the inference stage.
 
+## License
+This repo is released under the MIT License.
+
 ## Citation
 
 If this repo is useful for your research, please consider citing our paper:
@@ -72,5 +75,7 @@ If this repo is useful for your research, please consider citing our paper:
 }
 ```
 
+## Acknowledgements  
 
+Partial codes are based on [MIST](https://github.com/fjchange/MIST_VAD), we sincerely them for their contributions.
 
