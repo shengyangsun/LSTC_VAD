@@ -77,5 +77,5 @@ If this repo is useful for your research, please consider citing our paper:
 
 ## Acknowledgements  
 
-Partial codes are based on [MIST](https://github.com/fjchange/MIST_VAD), we sincerely them for their contributions.
+Partial codes are based on [MIST](https://github.com/fjchange/MIST_VAD), we sincerely thank them for their contributions.
 
