@@ -8,7 +8,7 @@ Please follow the `requirements.txt`
 
 ## Training
 ### Setup
-- You can use the pre-trained I3D such [pytorch-resnet3d](https://github.com/Tushar-N/pytorch-resnet3d) or [C3D model](https://github.com/jfzhang95/pytorch-video-recognition).
+- You can use the pre-trained I3D such [pytorch-resnet3d](https://github.com/Tushar-N/pytorch-resnet3d) or [C3D model](https://github.com/jfzhang95/pytorch-video-recognition) for feature extraction.
 
 - You can also download the extracted I3D features from links below:
 >[**ShanghaiTech I3D features (code:8XJB)**](https://web.ugreen.cloud/web/#/share/EC-6Tks554JJ122RscV-309B96)
