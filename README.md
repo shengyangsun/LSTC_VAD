@@ -11,11 +11,11 @@ Please follow the `requirements.txt`
 - You can use the pre-trained I3D such [pytorch-resnet3d](https://github.com/Tushar-N/pytorch-resnet3d) or [C3D model](https://github.com/jfzhang95/pytorch-video-recognition) for feature extraction.
 
 - You can also download the extracted I3D features from links below:
->[**ShanghaiTech I3D features (code:8XJB)**](https://web.ugreen.cloud/web/#/share/EC-6Tks554JJ122RscV-309B96)
+>~~[**ShanghaiTech I3D features (code:8XJB)**](https://web.ugreen.cloud/web/#/share/EC-6Tks554JJ122RscV-309B96)~~ [**ShanghaiTech I3D features (code:KV44)**](https://web.ugreen.cloud/web/#/share/ac3d0256a44a412282b8a1b065177669)
 >
->[**UCF-Crime I3D features (code:6EB8)**](https://web.ugreen.cloud/web/#/share/EC-2aki554JJ122lTql-309B96)
+>~~[**UCF-Crime I3D features (code:6EB8)**](https://web.ugreen.cloud/web/#/share/EC-2aki554JJ122lTql-309B96)~~ [**UCF-Crime I3D features (code:344D)**](https://web.ugreen.cloud/web/#/share/b3ed054d12ad4ca0ac1901524e8e599e)
 >
->[**UBnormal I3D features (code:PYL5)**](https://web.ugreen.cloud/web/#/share/EC-uQCN554JJ122RV6e-309B96)
+>~~[**UBnormal I3D features (code:PYL5)**](https://web.ugreen.cloud/web/#/share/EC-uQCN554JJ122RV6e-309B96)~~ [**UBnormal I3D features (code:34A4)**](https://web.ugreen.cloud/web/#/share/988d10dee24f45a4b3a86220034377d4)
 
 Take the example of ShanghaiTech, run the following commands:
 ### Train the Spatial-Transformer (the number of input clip is one), STN:
@@ -39,11 +39,11 @@ python pseudo_labels_generator_temporal.py --dataset SHT --relative_position_enc
 ## Inference
 
 - You can download the checkpoint models from links below:
->[**ShanghaiTech (code:L958)**](https://web.ugreen.cloud/web/#/share/EC-fbmW554JJ122VSms-309B96)
+>~~[**ShanghaiTech (code:L958)**](https://web.ugreen.cloud/web/#/share/EC-fbmW554JJ122VSms-309B96)~~ [**ShanghaiTech (code:3UJ9)**](https://web.ugreen.cloud/web/#/share/bbbc17eac4f5482789425ef83fd1dc7d)
 >
->[**UCF-Crime (code:8383)**](https://web.ugreen.cloud/web/#/share/EC-FZBy554JJ1226WoA-309B96)
+>~~[**UCF-Crime (code:8383)**](https://web.ugreen.cloud/web/#/share/EC-FZBy554JJ1226WoA-309B96)~~ [**UCF-Crime (code:C6E3)**](https://web.ugreen.cloud/web/#/share/487af68b320b4227b945af999d91d774)
 >
->[**UBnormal (code:3X3N)**](https://web.ugreen.cloud/web/#/share/EC-Ifji554JJ122kFxa-309B96)
+>~~[**UBnormal (code:3X3N)**](https://web.ugreen.cloud/web/#/share/EC-Ifji554JJ122kFxa-309B96)~~ [**UBnormal (code:4639)**](https://web.ugreen.cloud/web/#/share/76b23691c6014a62babc546cc039e518)
 >
 
 for ShanghaiTech:
@@ -67,11 +67,13 @@ This repo is released under the MIT License.
 
 If this repo is useful for your research, please consider citing our paper:
 ```bibtex
-@article{sun2023longshort,
-      title={Long-Short Temporal Co-Teaching for Weakly Supervised Video Anomaly Detection}, 
-      author={Shengyang Sun and Xiaojin Gong},
-      year={2023},
-      journal={arXiv preprint arXiv:2303.18044},
+@inproceedings{sun2023long,
+  title={Long-short temporal co-teaching for weakly supervised video anomaly detection},
+  author={Sun, Shengyang and Gong, Xiaojin},
+  booktitle={2023 IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={2711--2716},
+  year={2023},
+  organization={IEEE}
 }
 ```
 
